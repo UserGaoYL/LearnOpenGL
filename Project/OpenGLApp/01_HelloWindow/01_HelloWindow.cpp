@@ -3,11 +3,11 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
 
-const unsigned int Win_Width = 800;
-const unsigned int Win_Height = 480;
+extern unsigned int APP_WIDTH;
+extern unsigned int APP_HEIGHT;
 
-void processInput(GLFWwindow * window);
-void framebuffer_size_callback(GLFWwindow * window,int width,int height);
+extern void processInput(GLFWwindow* window);
+extern void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 
 //	入口
 int StartHelloWindow()
@@ -21,10 +21,10 @@ int StartHelloWindow()
 	//	告诉glfw使用的是核心模式(Core-profile)
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
-	printf("初始化窗口~");
+	printf("初始化窗口 StartHelloWindow ~\n");
 
 	//	创建窗口对象
-	GLFWwindow* window = glfwCreateWindow(Win_Width, Win_Height,"OpenGLAPP",NULL,NULL);
+	GLFWwindow* window = glfwCreateWindow(APP_WIDTH, APP_HEIGHT, "OpenGLAPP", NULL, NULL);
 	if (window == NULL)
 	{
 		printf("Window 创建失败!!!");
@@ -69,19 +69,4 @@ int StartHelloWindow()
 	glfwTerminate();
 
 	return 0;
-}
-
-//	检测用户输入事件
-void processInput(GLFWwindow* window)
-{
-	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
-	{
-		glfwSetWindowShouldClose(window,true);
-	}
-}
-
-//	监听窗口变化
-void framebuffer_size_callback(GLFWwindow* window, int width, int height)
-{
-	glViewport(0, 0, width, height);
 }

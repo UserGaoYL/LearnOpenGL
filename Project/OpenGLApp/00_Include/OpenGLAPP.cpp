@@ -9,3 +9,4 @@ int main()
 	printf("Hello OpenGL\n");	
 	return StartHelloWindow();
 }
+

@@ -27,5 +27,8 @@
     <ClCompile Include="00_Include\OpenGLAPP.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="00_Include\Common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

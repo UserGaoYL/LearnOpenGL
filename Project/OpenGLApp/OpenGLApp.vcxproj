@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="00_Include\Common.cpp" />
     <ClCompile Include="00_Include\glad.c" />
     <ClCompile Include="00_Include\OpenGLAPP.cpp" />
     <ClCompile Include="01_HelloWindow\01_HelloWindow.cpp" />
