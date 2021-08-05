@@ -20,7 +20,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="00_Include\glad.c" />
+    <ClCompile Include="00_Include\OpenGLAPP.cpp" />
     <ClCompile Include="01_HelloWindow\01_HelloWindow.cpp" />
+    <ClCompile Include="02_HelloTriangle\02_HelloTriangle.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

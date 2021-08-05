@@ -21,5 +21,11 @@
     <ClCompile Include="00_Include\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="02_HelloTriangle\02_HelloTriangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="00_Include\OpenGLAPP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
