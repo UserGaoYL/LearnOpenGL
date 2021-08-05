@@ -85,8 +85,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>E:\workspace\MySpace\GitSpace\LearnOpenGL\Project\ThirdParty\Include;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\workspace\MySpace\GitSpace\LearnOpenGL\Project\ThirdParty\Libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\ThirdParty\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\ThirdParty\Libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
