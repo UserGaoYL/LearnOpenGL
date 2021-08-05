@@ -3,17 +3,14 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
 
-//#pragma warning (disable:4819)
-//#pragma execution_character_set("utf-8")
-
 const unsigned int Win_Width = 800;
 const unsigned int Win_Height = 480;
 
 void processInput(GLFWwindow * window);
 void framebuffer_size_callback(GLFWwindow * window,int width,int height);
 
-//	main入口
-int main()
+//	入口
+int StartHelloWindow()
 {
 	glfwInit();
 
