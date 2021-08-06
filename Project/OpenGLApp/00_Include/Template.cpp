@@ -7,6 +7,7 @@
 #include <iostream>
 #include "Config.h"
 #include <Common/Shader.h>
+#include <Common/stb_image.h>
 
 
 static Shader shader = Shader(NULL);
@@ -15,6 +16,9 @@ static unsigned int VBO, VAO;
 static void OnStart(GLFWwindow* window);
 static void OnEnd(GLFWwindow* window);
 static void OnUpdate(GLFWwindow* window);
+
+extern unsigned int loadTexture(char const* path);
+
 
 FuncStruct Run_$itemname$()
 {

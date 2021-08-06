@@ -49,6 +49,8 @@
   <ItemGroup>
     <None Include="Shader\03_shader.vert" />
     <None Include="Shader\03_shader.frag" />
+    <None Include="Shader\04_Texture.vert" />
+    <None Include="Shader\04_Texture.frag" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="00_Include\Config.h">
