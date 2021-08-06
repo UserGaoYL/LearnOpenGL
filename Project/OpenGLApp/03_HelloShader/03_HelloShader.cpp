@@ -45,7 +45,7 @@ void OnStart(GLFWwindow* window)
 	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
 	glEnableVertexAttribArray(1);
 
-	shader = Shader("03_HelloShader/03_shader.vert", "03_HelloShader/03_shader.frag");
+	shader = Shader("03_shader.vert", "03_shader.frag");
 }
 
 void OnUpdate(GLFWwindow* window)

@@ -27,8 +27,8 @@
     <ClCompile Include="03_HelloShader\03_HelloShader.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="03_HelloShader\03_shader.frag" />
-    <None Include="03_HelloShader\03_shader.vert" />
+    <None Include="Shader\03_shader.frag" />
+    <None Include="Shader\03_shader.vert" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="00_Include\Config.h" />
