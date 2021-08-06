@@ -38,4 +38,9 @@
     <None Include="03_HelloShader\03_shader.vert" />
     <None Include="03_HelloShader\03_shader.frag" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="00_Include\Config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

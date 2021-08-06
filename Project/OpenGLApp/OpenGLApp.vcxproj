@@ -30,6 +30,9 @@
     <None Include="03_HelloShader\03_shader.frag" />
     <None Include="03_HelloShader\03_shader.vert" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="00_Include\Config.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -90,7 +93,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>..\ThirdParty\Include;$(IncludePath)</IncludePath>
+    <IncludePath>.\00_Include;..\ThirdParty\Include;$(IncludePath)</IncludePath>
     <LibraryPath>..\ThirdParty\Libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
