@@ -38,6 +38,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="05_Transform\05_Transform.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Shader\03_shader.frag" />
@@ -47,6 +51,14 @@
       </SubType>
     </None>
     <None Include="Shader\04_Texture.vert">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Shader\05_Transform.frag">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Shader\05_Transform.vert">
       <SubType>
       </SubType>
     </None>

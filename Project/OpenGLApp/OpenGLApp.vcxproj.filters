@@ -45,12 +45,17 @@
     <ClCompile Include="00_Include\Template.frag">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="05_Transform\05_Transform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Shader\03_shader.vert" />
     <None Include="Shader\03_shader.frag" />
     <None Include="Shader\04_Texture.vert" />
     <None Include="Shader\04_Texture.frag" />
+    <None Include="Shader\05_Transform.frag" />
+    <None Include="Shader\05_Transform.vert" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="00_Include\Config.h">
