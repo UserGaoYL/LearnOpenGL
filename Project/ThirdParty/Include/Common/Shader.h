@@ -8,6 +8,8 @@
 #include <sstream>
 #include <iostream>
 
+using namespace std;
+
 class Shader
 {
 public:
@@ -32,9 +34,12 @@ public:
         fShaderFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
         try
         {
+
+            string realVertPath = string("Shader/") + string(vertexPath);
+            string realFragPath = string("Shader/") + string(fragmentPath);
             // open files
-            vShaderFile.open(vertexPath);
-            fShaderFile.open(fragmentPath);
+            vShaderFile.open(realVertPath.c_str());
+            fShaderFile.open(realFragPath.c_str());
             std::stringstream vShaderStream, fShaderStream;
             // read file's buffer contents into streams
             vShaderStream << vShaderFile.rdbuf();
