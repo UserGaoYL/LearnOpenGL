@@ -28,7 +28,7 @@ static unsigned int indices[] = {
 };
 
 static Shader shader = Shader(NULL);
-static unsigned int VBO, VAO,EBO,texture;
+static unsigned int VBO, VAO,EBO,texture,face;
 
 static void OnStart(GLFWwindow* window);
 static void OnEnd(GLFWwindow* window);
@@ -74,12 +74,21 @@ void OnStart(GLFWwindow* window)
     glEnableVertexAttribArray(2);
 
     texture = loadTexture("container.jpg");
+    face = loadTexture("awesomeface.png");
+
+    shader.use();
+    glUniform1i(glGetUniformLocation(shader.ID, "texture1"), 0);
+    shader.setInt("texture2", 1);
 }
 
 void OnUpdate(GLFWwindow* window)
 {
-    // bind Texture
+    // bind textures on corresponding texture units
+    glActiveTexture(GL_TEXTURE0);
     glBindTexture(GL_TEXTURE_2D, texture);
+    glActiveTexture(GL_TEXTURE1);
+    glBindTexture(GL_TEXTURE_2D, face);
+
 
     // render container
     shader.use();
