@@ -9,7 +9,7 @@
 #include <Common/Shader.h>
 
 
-static Shader shader = Shader(NULL, NULL);
+static Shader shader = Shader(NULL);
 static unsigned int VBO, VAO;
 
 static void OnStart(GLFWwindow* window);
