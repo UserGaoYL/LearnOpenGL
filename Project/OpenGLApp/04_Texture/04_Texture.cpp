@@ -19,6 +19,7 @@ static void OnUpdate(GLFWwindow* window);
 FuncStruct Run_04_Texture()
 {
 	FuncStruct callback;
+	callback.win_name = "04_Texture";
 	callback.onStart = OnStart;
 	callback.onUpdate = OnUpdate;
 	callback.onEnd = OnEnd;

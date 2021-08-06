@@ -19,6 +19,7 @@ static void OnUpdate(GLFWwindow* window);
 FuncStruct Run_$itemname$()
 {
 	FuncStruct callback;
+	callback.win_name = "$itemname$";
 	callback.onStart = OnStart;
 	callback.onUpdate = OnUpdate;
 	callback.onEnd = OnEnd;

@@ -7,6 +7,7 @@ typedef void (*CALLBACK)(GLFWwindow * window);
 
 struct FuncStruct
 {
+	const char * win_name;
 	CALLBACK onStart = NULL;
 	CALLBACK onUpdate = NULL;
 	CALLBACK onEnd = NULL;

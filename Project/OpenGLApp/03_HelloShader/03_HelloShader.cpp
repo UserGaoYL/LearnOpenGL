@@ -23,6 +23,7 @@ static void OnUpdate(GLFWwindow* window);
 FuncStruct Run_03_HelloShader()
 {
 	FuncStruct callback;
+	callback.win_name = "03_HelloShader";
 	callback.onStart = OnStart;
 	callback.onUpdate = OnUpdate;
 	callback.onEnd = OnEnd;
