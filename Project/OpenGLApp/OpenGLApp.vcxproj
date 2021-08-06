@@ -48,8 +48,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Shader\03_shader.frag" />
-    <None Include="Shader\03_shader.vert" />
+    <None Include="Shader\03_HelloShader.frag" />
+    <None Include="Shader\03_HelloShader.vert" />
     <None Include="Shader\04_Texture.frag">
       <SubType>
       </SubType>
