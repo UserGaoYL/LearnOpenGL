@@ -13,7 +13,7 @@ static float vertices[] = {
 	 0.0f,  0.5f, 0.0f,  0.0f, 0.0f, 1.0f   // top 
 };
 
-static Shader shader = Shader(NULL,NULL);
+static Shader shader = Shader(NULL);
 static unsigned int VBO, VAO;
 
 static void OnStart(GLFWwindow* window);
@@ -46,7 +46,7 @@ void OnStart(GLFWwindow* window)
 	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
 	glEnableVertexAttribArray(1);
 
-	shader = Shader("03_shader.vert", "03_shader.frag");
+	shader = Shader("03_shader");
 }
 
 void OnUpdate(GLFWwindow* window)
