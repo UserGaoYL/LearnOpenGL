@@ -10,7 +10,7 @@
 #include <Common/stb_image.h>
 
 
-static Shader shader = Shader(NULL);
+static Shader shader = NULL;
 static unsigned int VBO, VAO;
 
 static void OnStart(GLFWwindow* window);

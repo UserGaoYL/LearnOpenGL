@@ -12,7 +12,7 @@ static float vertices[] = {
 	 0.0f,  0.5f, 0.0f,  0.0f, 0.0f, 1.0f   // top 
 };
 
-static Shader shader = Shader(NULL);
+static Shader shader = NULL;
 static unsigned int VBO, VAO;
 
 static void OnStart(GLFWwindow* window);

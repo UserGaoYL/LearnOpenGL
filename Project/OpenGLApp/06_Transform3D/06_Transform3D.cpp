@@ -13,7 +13,7 @@
 #include <glm/gtc/type_ptr.hpp>
 
 
-static Shader shader = Shader(NULL, NULL);
+static Shader shader = NULL;
 static unsigned int VBO, VAO, texture1, texture2;
 
 static void OnStart(GLFWwindow* window);

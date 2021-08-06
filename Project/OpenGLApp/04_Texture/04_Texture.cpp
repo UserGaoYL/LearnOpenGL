@@ -27,7 +27,7 @@ static unsigned int indices[] = {
     1, 2, 3  // second triangle
 };
 
-static Shader shader = Shader(NULL);
+static Shader shader = NULL;
 static unsigned int VBO, VAO,EBO,texture,face;
 
 static void OnStart(GLFWwindow* window);
