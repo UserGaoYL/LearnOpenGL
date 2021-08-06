@@ -22,9 +22,14 @@
     <ClCompile Include="00_Include\Common.cpp" />
     <ClCompile Include="00_Include\glad.c" />
     <ClCompile Include="00_Include\OpenGLAPP.cpp" />
+    <ClCompile Include="00_Include\Template.cpp" />
     <ClCompile Include="01_HelloWindow\01_HelloWindow.cpp" />
     <ClCompile Include="02_HelloTriangle\02_HelloTriangle.cpp" />
     <ClCompile Include="03_HelloShader\03_HelloShader.cpp" />
+    <ClCompile Include="04_Texture\04_Texture.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Shader\03_shader.frag" />

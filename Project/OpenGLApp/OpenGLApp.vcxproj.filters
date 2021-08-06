@@ -33,6 +33,12 @@
     <ClCompile Include="03_HelloShader\03_HelloShader.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="00_Include\Template.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Texture\04_Texture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Shader\03_shader.vert" />
