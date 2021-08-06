@@ -24,6 +24,11 @@
     <ClCompile Include="00_Include\OpenGLAPP.cpp" />
     <ClCompile Include="01_HelloWindow\01_HelloWindow.cpp" />
     <ClCompile Include="02_HelloTriangle\02_HelloTriangle.cpp" />
+    <ClCompile Include="03_HelloShader\03_HelloShader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="03_HelloShader\03_shader.frag" />
+    <None Include="03_HelloShader\03_shader.vert" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
